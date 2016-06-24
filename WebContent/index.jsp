@@ -8,7 +8,22 @@
 </head>
 <body>
 	<h1>Hello GitHub</h1>
+	<h1>Hello GitHub</h1>
 	<h2>Hello It's Me!</h2>
 	<h1>I am Vannara.</h1>
+	<%
+		int a=10;
+		int b=20;
+		int r=a+b;
+		out.print("10+20= "+sum(10,20));
+		
+	%>
+	<%!
+		public int sum(int a,int b){
+		int r=a+b;
+		return r;
+	}
+	%>
+	
 </body>
 </html>
